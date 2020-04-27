@@ -1,0 +1,162 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-repeat: repeat;
+  background-image: url(media/space.jpg);
+  margin: 0;
+  min-width: 1000px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+/* --- Top section --- */
+.header {
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.header-hero {
+  width: 400px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.header-farewell {
+  margin: auto;
+}
+
+.header-farewell__rainbow {
+  display: inline-block;
+  width: 900px;
+  height: auto;
+}
+
+marquee {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.music {
+  margin: auto;
+}
+
+/* --- Mid section --- */
+.mid {
+  display: block;
+  font-size: 0;
+  white-space: nowrap;
+  min-width: 1000px;
+}
+
+.mid::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.mid-left {
+  font-size: 16px;
+  white-space: normal;
+  display: float;
+  float: left;
+  padding: 10px;
+  padding-top: 60px;
+  width: 50%;
+  color: lightblue;
+}
+
+.mid-left__memories {
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+}
+
+.mid-left__camera {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.mid-left__galleryimg {
+  height: 150px;
+  width: 200px;
+}
+
+.mid-left > p {
+  font-style: italic;
+}
+
+.mid-right {
+  display: float;
+  float: left;
+  font-size: 24px;
+  white-space: normal;
+  padding: 10px;
+  width: 50%;
+  color: hotpink;
+}
+
+.mid-right__amazingworks {
+  height: 120px;
+  width: 360px;
+  display: inline-block;
+}
+
+.mid-right__medal {
+  display: inline-block;
+  height: 100px;
+  width: 50px;
+}
+
+.mid-right a {
+  color: hotpink;
+  line-height: 2.5;
+}
+
+.mid-right a:hover {
+  color: white;
+}
+
+/* --- Rear section --- */
+.rear {
+  display: block;
+  padding: 10px;
+  margin-top: 50px;
+  color: orange;
+}
+
+.rear-header__wellwishes {
+  display: inline-block;
+  height: 150px;
+  width: 500px;
+}
+
+.rear-header__seagull {
+  display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.rear-wish {
+  margin: 15px 15px;
+  border: 3px dashed orange;
+  padding: 15px;
+}
+
+.rear-wish:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.rear-wish img {
+  width: 100px;
+  height: 100px;
+  display: float;
+  float: left;
+  margin: 10px;
+}
