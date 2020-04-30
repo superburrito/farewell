@@ -105,6 +105,12 @@ const wishes = [
       "hey yishu, was a great pleasure being your manager for your journey here and i hope that you have enjoyed your time in carousell and the verticals team as well. wishing you all the best in your future adventures both in work and play! keep in touch, stay awesome and stay safe!",
   },
   {
+    src: "media/wishes/phat.png",
+    name: "Phat",
+    message:
+      "hey Yishu, i still remember the first piece of work we worked together on lumos-client for listing quota and listing management back in 2017. I enjoyed random talks and discussions we had. Not to foget to mention about keyboard, switch games at your house and the dalat trip (i missed it so much). You’re a special one (it’s a compliment). Stay unique and shine 🙂",
+  },
+  {
     src: "media/wishes/bang.png",
     name: "Bang",
     message: "Thanks for all your hard work and good luck!!",
