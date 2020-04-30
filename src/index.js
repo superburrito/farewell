@@ -104,10 +104,6 @@ const wishes = [
     message:
       "hey yishu, was a great pleasure being your manager for your journey here and i hope that you have enjoyed your time in carousell and the verticals team as well. wishing you all the best in your future adventures both in work and play! keep in touch, stay awesome and stay safe!",
   },
-  {
-    src: "media/wishes/ming.png",
-    message: "<Your farewell message here>",
-  },
 ];
 (function() {
   const fragment = document.createDocumentFragment();
