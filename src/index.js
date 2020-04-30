@@ -22,7 +22,7 @@ const wishes = [
       "Hi, Yishu. Thanks for your kindly sharing and helping. Although we are in separate office and does not have many time for interaction. You do  help me so much not only the code base issue but also solve problems that I encountered. Hope we can keep in touch and see each other in the future!",
   },
   {
-    src: "",
+    src: "media/wishes/bui.png",
     name: "Bui",
     message: "Sayonara bossu! T_T",
   },
@@ -33,7 +33,7 @@ const wishes = [
       "Hi Yishu! Thanks for all your work on the web platform! It's been great working with you and I'm sure you'll be awesome at Shopify as well! Going to miss the Nylon coffee chats, but see you around sometime! (Hopefully in the Bay Area?)",
   },
   {
-    src: "",
+    src: "media/wishes/dylan.png",
     name: "Dylan",
     message:
       "Dear Yishu, So sad to hear that you're leaving. Your interests are as wide as your engineering knowledge is deep. You have left an indelible mark on us, and Carousell Web Team will not be the same without you. Don't be a stranger. I hope to hangout often despite being in different companies. Keep being awesome in whatever you do!",
